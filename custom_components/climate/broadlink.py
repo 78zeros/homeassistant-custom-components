@@ -15,9 +15,7 @@ from homeassistant.helpers.restore_state import async_get_last_state
 from configparser import ConfigParser
 from base64 import b64encode, b64decode
 
-REQUIREMENTS = [
-    'https://github.com/balloob/python-broadlink/archive/'
-    '3580ff2eaccd267846f14246d6ede6e30671f7c6.zip#broadlink==0.5.1']
+REQUIREMENTS = ['broadlink>=0.5.1']
 
 _LOGGER = logging.getLogger(__name__)
 
